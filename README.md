@@ -10,3 +10,10 @@ You'll also need a chormedriver; "https://chromedriver.chromium.org/downloads"
 Added a tags.txt file containing tags of companies.
 
 This project is using "https://www.screener.in/" for web data extraction.
+
+The following is the file structure that I have used.
+Desktop/Alpha contains 
+    Alpha			//main project folder
+    chromedriver.app		
+    tags.txt
+    DatabaseSchema.txt
