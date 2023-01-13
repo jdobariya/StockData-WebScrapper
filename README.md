@@ -7,6 +7,6 @@ under the "StockData" database in your PostgreSQL sever.
 
 You'll also need a chormedriver; "https://chromedriver.chromium.org/downloads"
 
-Added a tag.txt file containing tags of companies.
+Added a tags.txt file containing tags of companies.
 
 This project is using "https://www.screener.in/" for web data extraction.
