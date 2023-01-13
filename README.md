@@ -1,4 +1,4 @@
-# AutomationWebScrapingProject
+# StockData-WebScrapper
 
 𝐇𝐞𝐥𝐥𝐨, 𝐟𝐞𝐥𝐥𝐨𝐰<𝚌𝚘𝚍𝚎𝚛𝚜/>!
 
