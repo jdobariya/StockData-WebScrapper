@@ -8,7 +8,7 @@ Attached DatabaseSchema.txt file for table creation under the "StockData" databa
 
 You'll also need a chormedriver; "https://chromedriver.chromium.org/downloads"
 
-Added a tags.txt file containing tags of companies.
+Added a tags.txt file containing list of tags of companies.
 
 This project is using "https://www.screener.in/" for web data extraction.
 
