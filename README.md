@@ -14,7 +14,7 @@ This project is using "https://www.screener.in/" for web data extraction.
 
 The following is the file structure that I have used.<br/>
 Desktop/Alpha contains<br/>
-    Alpha			<!--main project folder--><br/>
+    Alpha			//main project folder<br/>
     chromedriver.app<br/>
     tags.txt<br/>
     DatabaseSchema.txt<br/>
