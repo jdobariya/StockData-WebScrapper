@@ -1,0 +1,186 @@
+CREATE TABLE public."companyinfo"
+(
+    "tagid" character varying(20) NOT NULL,
+    "marketcap" character varying(30),
+    "currentprice" character varying(30),
+    "highlow" character varying(30),
+    "stockpe" character varying(30),
+    "bookvalue" character varying(30),
+    "dividendyield" character varying(30),
+    "roce" character varying(30),
+    "roe" character varying(30),
+    "facevalue" character varying(30)
+);
+
+
+CREATE TABLE public."peers"
+(
+    "tagid" character varying(20) NOT NULL,
+    "header" character varying(50),
+    "name" character varying(50),
+    "cmprs" character varying(30),
+    "pe" character varying(30),
+    "marcaprscr" character varying(30),
+    "divyld" character varying(30),
+    "npqtrrscr" character varying(30),
+    "qtrprofitvar" character varying(30),
+    "salesqtrrscr" character varying(30),
+    "qtrsalesvar" character varying(30),
+    "roce" character varying(30)
+);
+
+CREATE TABLE public."quarterlyresult"
+(
+    "tagid" character varying(20) NOT NULL,
+    "header" character varying(50),
+        "mar2018" character varying(20),
+    "jun2018" character varying(100),
+    "sep2018" character varying(100),
+    "dec2018" character varying(100),
+    "mar2019" character varying(100),
+    "jun2019" character varying(100),
+    "sep2019" character varying(100),
+    "dec2019" character varying(100),
+    "mar2020" character varying(100),
+    "jun2020" character varying(100),
+    "sep2020" character varying(100),
+    "dec2020" character varying(100),
+    "mar2021" character varying(100),
+    "jun2021" character varying(100),
+    "sep2021" character varying(100),
+    "dec2021" character varying(100),
+    "mar2022" character varying(100),
+    "jun2022" character varying(100),
+    "sep2022" character varying(100),
+    "dec2022" character varying(100),
+    "mar2023" character varying(100),
+    "jun2023" character varying(100),
+    "sep2023" character varying(100),
+    "dec2023" character varying(100)
+
+);
+
+
+CREATE TABLE public."profitlossdata"
+(
+    "tagid" character varying(20) NOT NULL,
+    "header" character varying(50),
+    "mar2010" character varying(20),
+    "mar2011" character varying(20),
+    "mar2012" character varying(20),
+    "mar2013" character varying(20),
+    "mar2014" character varying(20),
+    "mar2015" character varying(20),
+    "mar2016" character varying(20),
+    "mar2017" character varying(20),
+    "mar2018" character varying(20),
+    "mar2019" character varying(20),
+    "mar2020" character varying(20),
+    "mar2021" character varying(20),
+    "mar2022" character varying(20),
+    "mar2023" character varying(20),
+    "ttm"  character varying(20)
+
+);
+
+CREATE TABLE public."balancesheet"
+(
+    "tagid" character varying(20) NOT NULL,
+    "header" character varying(50),
+    "mar2010" character varying(20),
+    "mar2011" character varying(20),
+    "mar2012" character varying(20),
+    "mar2013" character varying(20),
+    "mar2014" character varying(20),
+    "mar2015" character varying(20),
+    "mar2016" character varying(20),
+    "mar2017" character varying(20),
+    "mar2018" character varying(20),
+    "mar2019" character varying(20),
+    "mar2020" character varying(20),
+    "mar2021" character varying(20),
+    "mar2022" character varying(20),
+    "sep2022" character varying(20),
+    "mar2023" character varying(20)
+
+);
+
+CREATE TABLE public."cashflowdata"
+(
+    "tagid" character varying(20) NOT NULL,
+    "header" character varying(50),
+    "mar2010" character varying(20),
+    "mar2011" character varying(20),
+    "mar2012" character varying(20),
+    "mar2013" character varying(20),
+    "mar2014" character varying(20),
+    "mar2015" character varying(20),
+    "mar2016" character varying(20),
+    "mar2017" character varying(20),
+    "mar2018" character varying(20),
+    "mar2019" character varying(20),
+    "mar2020" character varying(20),
+    "mar2021" character varying(20),
+    "mar2022" character varying(20),
+    "mar2023" character varying(20)
+
+
+);
+
+CREATE TABLE public."ratios"
+(
+    "tagid" character varying(20) NOT NULL,
+    "header" character varying(50),
+    "mar2010" character varying(20),
+    "mar2011" character varying(20),
+    "mar2012" character varying(20),
+    "mar2013" character varying(20),
+    "mar2014" character varying(20),
+    "mar2015" character varying(20),
+    "mar2016" character varying(20),
+    "mar2017" character varying(20),
+    "mar2018" character varying(20),
+    "mar2019" character varying(20),
+    "mar2020" character varying(20),
+    "mar2021" character varying(20),
+    "mar2022" character varying(20),
+    "mar2023" character varying(20)
+);
+
+CREATE TABLE public."shareholdings"
+(
+    "tagid" character varying(20) NOT NULL,
+    "header" character varying(200),
+    "mar2018" character varying(20),
+    "jun2018" character varying(20),
+    "sep2018" character varying(20),
+    "dec2018" character varying(20),
+    "mar2019" character varying(20),
+    "jun2019" character varying(20),
+    "sep2019" character varying(20),
+    "dec2019" character varying(20),
+    "mar2020" character varying(20),
+    "jun2020" character varying(20),
+    "sep2020" character varying(20),
+    "dec2020" character varying(20),
+    "mar2021" character varying(20),
+    "jun2021" character varying(20),
+    "sep2021" character varying(20),
+    "dec2021" character varying(20),
+    "mar2022" character varying(20),
+    "jun2022" character varying(20),
+    "sep2022" character varying(20),
+    "dec2022" character varying(20),
+    "mar2023" character varying(20),
+    "jun2023" character varying(20),
+    "sep2023" character varying(20),
+    "dec2023" character varying(20)
+);
+
+select * from companyinfo;
+select * from peers;
+select * from profitlossdata;
+select * from balancesheet;
+select * from cashFlowData;
+select * from ratios;
+select * from shareholdings;
